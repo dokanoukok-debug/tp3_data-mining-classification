@@ -13,8 +13,8 @@ Il suffit d'avoir **Docker** installé. Python, les bibliothèques et les
 données sont déjà dans l'image : rien d'autre à installer.
 
 ```bash
-git clone https://github.com/kossi-ctrl/tp3_data-mining.git
-cd tp3_data-mining
+git clone https://github.com/dokanoukok-debug/tp3_data-mining-classification.git
+cd tp3_data-mining-classification
 docker compose up --build
 ```
 
@@ -37,7 +37,7 @@ docker compose down
 ## Contenu du dépôt
 
 ```
-tp3_data-mining/
+tp3_data-mining-classification/
 ├── plot_document_classification_20newsgroups.ipynb   # le notebook du TD3
 ├── fig7-comparaison-classifieurs.png                 # figure : comparaison des classifieurs
 ├── fig8-confusion-naive-bayes.png                    # figure : matrice de confusion
@@ -70,8 +70,12 @@ sur votre ordinateur.
 
 ## Auteurs
 
+Projet réalisé en binôme :
+
 - **Kokou DOKANU**
 - **Kossi ZANGBE**
+
+Dépôt d'origine : [kossi-ctrl/tp3_data-mining](https://github.com/kossi-ctrl/tp3_data-mining)
 
 Master Humanités Numériques, Ingénierie des Données
 Centre d'Études Supérieures de la Renaissance (CESR), Université de Tours
